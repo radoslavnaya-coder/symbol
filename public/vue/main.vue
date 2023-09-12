@@ -1,15 +1,6 @@
 <script>
-export default {
-    data() {
-        return {
-            a: 111,
-            b: 112,
-        };
-    },
-};
+let i = 0;
+if ($gamburger-notopen === 0) {
+    i + 1;
+}
 </script>
-<template>
-    <p>
-        {{ a }}
-    </p>
-</template>
