@@ -5,10 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Symbolic Journal</title>
         <link rel="stylesheet" href="css/main.css" />
+        <script src="vue/main.vue"></script>
     </head>
 
     <body>
+        <header id="gamburger-notopen">
+            <a>
+                <img
+                    class="leftside-menu-icons"
+                    src="images/gamburger-light.png"
+                />
+            </a>
+        </header>
         <header
+            id="gamburger-open"
             style="
                 background: url('images/leftside-menu.png') top center no-repeat;
             "
