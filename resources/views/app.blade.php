@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Symbolic Journal</title>
         <link rel="stylesheet" href="css/main.css" />
-        <script src="../resources/js/components/main.vue"></script>
+        <script src="/main.js"></script>
     </head>
 
     <body>
@@ -24,7 +24,7 @@
             "
         >
             <!-- <img class="leftside-menu" src="images/leftside-menu.png" /> -->
-            <a href="">
+            <!-- <a href=""> 
                 <img
                     class="leftside-menu-icons"
                     src="images/gamburger-light.png"
@@ -83,4 +83,16 @@
         </section>
         <footer></footer>
     </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  @vite(['resources/css/app.css','resources/js/app.js'])
+</head>
+<body>
+  <div id="app"></div>
+</body>
 </html>
